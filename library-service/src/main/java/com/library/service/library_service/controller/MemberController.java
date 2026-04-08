@@ -44,14 +44,8 @@ public class MemberController {
 
 
         return members;
-
-
     }
-
-
     @GetMapping("/{id}")
-
-
     public String getMemberById(@PathVariable int id) {
 
 
@@ -62,13 +56,7 @@ public class MemberController {
 
 
         }
-
-
         return "Member not found";
-
-
     }
-
-
 }
  
